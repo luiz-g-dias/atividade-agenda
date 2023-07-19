@@ -1,0 +1,91 @@
+body  {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #000000;
+    text-align: center;
+    font: 400 64px "Inter", sans-serif;
+    position: relative;
+    width: 279px;
+    height: 75px;
+}
+.fundo {
+    background: #d9d9d9;
+    border-radius: 15px;
+    flex-shrink: 0;
+    width: 338px;
+    height: 557px;
+    position: relative;
+}
+.area-cadastrar {
+    background: #757575;
+    border-radius: 15px;
+    flex-shrink: 0;
+    width: 317px;
+    height: 75px;
+    position: absolute;
+    left: 10px;
+    top: 12px;
+}
+#nome {
+    background: #d9d9d9;
+    flex-shrink: 0;
+    width: 169px;
+    height: 22px;
+    position: absolute;
+    left: 19px;
+    top: 21px;
+}
+
+#numero {
+    background: #d9d9d9;
+    flex-shrink: 0;
+    width: 169px;
+    height: 22px;
+    position: absolute;
+    left: 19px;
+    top: 53px;
+}
+
+#salvar{
+    background: #b0fea2;
+    border-radius: 0px;
+    flex-shrink: 0;
+    width: 72px;
+    height: 32px;
+    position: absolute;
+    left: 249px;
+    top: 32px;
+}
+
+.tabela {
+    background: #757575;
+    border-radius: 15px;
+    flex-shrink: 0;
+    width: 317px;
+    height: 430px;
+    position: absolute;
+    left: 10px;
+    top: 100px;
+    overflow: auto;
+}
+
+table th { 
+    border-bottom: 2px solid #000;
+    width: 317px;
+    padding: 16px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+table td {
+    text-align: center;
+    font-size: 18px;
+    padding: 3px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
